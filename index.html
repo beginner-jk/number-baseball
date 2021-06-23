@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>baseball game</title>
+</head>
+<body>
+  <h1>Baseball Game</h1>
+    <section>
+        <button id="start">Game Start!</button>
+        <form id="input-number-form" class="hidden">
+            <input type="text" placeholder="Write three digits number!">
+        </form>
+        <div id="display" class="hidden">
+            <div id="strike">
+                <span>strike: </span>
+                <span></span>
+            </div>
+            <div id="ball">
+                <span>ball: </span>
+                <span></span>
+            </div>
+            <div id="limit">
+                <span>limit: </span>
+                <span></span>
+            </div>
+        </div>
+        <form id="restart-form">
+            <input id="restart" class="hidden" type="submit" value="restart">
+        </form>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>
